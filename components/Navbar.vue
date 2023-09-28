@@ -67,6 +67,14 @@
                   id="menu-item-2"
                   >Gram Converter</NuxtLink
                 >
+                <NuxtLink
+                  to="/basic-calculator"
+                  class="text-gray-700 block px-2 py-3 text-base hover:bg-slate-700 hover:text-white duration-1000"
+                  role="menuitem"
+                  tabindex="-1"
+                  id="menu-item-2"
+                  >Basic Caculator</NuxtLink
+                >
               </div>
             </div>
           </div>
