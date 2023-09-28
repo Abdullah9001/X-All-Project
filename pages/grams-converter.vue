@@ -1,7 +1,9 @@
 <template>
   <div class="h-[90vh] w-10/12 m-auto px-4 flex justify-center items-center">
     <div class="bg-slate-900 shadow-slate-500 shadow-lg p-7 font-sens">
-      <h1 class="mb-2 text-white text-3xl font-bold">Enter a value in grams</h1>
+      <h1 class="mb-2 text-white text-3xl font-bold">
+        Enter a valid value in grams
+      </h1>
       <input
         type="text"
         class="w-full flex bg-slate-900 border-b-2 py-4 px-2 border-slate-50 outline-none text-white"
