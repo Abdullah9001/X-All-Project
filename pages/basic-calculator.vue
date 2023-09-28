@@ -39,6 +39,4 @@
   </div>
 </template>
 
-<script setup>
-console.log("hello");
-</script>
+<script setup></script>
