@@ -63,16 +63,16 @@ const convertTo = () => {
     error.value = "";
     switch (selected.value) {
       case "pounds":
-        result.value = gram.value * 2.20462;
+        result.value = gram.value * 0.0022046;
         break;
       case "kilograms":
-        result.value = gram.value / 2.20462;
+        result.value = gram.value / 1000;
         break;
       case "ounces":
-        result.value = gram.value / 35.274;
+        result.value = gram.value * 0.035274;
         break;
       case "stones":
-        result.value = gram.value / 14;
+        result.value = gram.value * 0.00015747;
         break;
       default:
         break;
