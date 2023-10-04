@@ -17,7 +17,7 @@ const store = useTodoStore();
               <input
                 type="text"
                 placeholder="Type Something"
-                class="input outline-none border-gray-900 border mr-3 w-80 h-10 rounded-md pl-3"
+                class="input border-gray-900 border mr-3 w-80 h-10 rounded-md pl-3 outline-none"
                 v-model="store.newTodo"
               />
               <button
