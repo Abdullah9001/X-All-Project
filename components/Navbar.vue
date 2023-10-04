@@ -83,6 +83,14 @@
                   id="menu-item-2"
                   >Percentage Caculator</NuxtLink
                 >
+                <NuxtLink
+                  to="/todo"
+                  class="text-gray-700 block px-2 py-3 text-base hover:bg-slate-700 hover:text-white duration-1000"
+                  role="menuitem"
+                  tabindex="-1"
+                  id="menu-item-2"
+                  >Todo App</NuxtLink
+                >
               </div>
             </div>
           </div>
